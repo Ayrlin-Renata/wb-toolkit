@@ -52,6 +52,9 @@ a {
 .collapse-row > .body-row {
 	display: none;
 }
+.collapse-arrow {
+	color: #00AAAA;
+}
 
 /* ---------- Text ---------- */
 
