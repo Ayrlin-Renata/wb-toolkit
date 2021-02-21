@@ -8,6 +8,9 @@
 @font-face { font-family: Roboto; src: url('../font/Roboto/Roboto-Regular.ttf'); } 
 @font-face { font-family: Roboto_Light; src: url('../font/Roboto/Roboto-Light.ttf'); } 
 @font-face { font-family: Roboto_Thin; src: url('../font/Roboto/Roboto-Thin.ttf'); } 
+@font-face { font-family: Roboto_Mono; src: url('../font/Roboto_Mono/RobotoMono-Regular.ttf'); } 
+@font-face { font-family: Roboto_Mono_Light; src: url('../font/Roboto_Mono/RobotoMono-Light.ttf'); } 
+@font-face { font-family: Roboto_Mono_Thin; src: url('../font/Roboto_Mono/RobotoMono-Thin.ttf'); } 
 
 body {
 	margin: 0px;
