@@ -4,10 +4,6 @@ Common JS Lib
 author: Ayrlin Renata
 */
 
-$(document).ready(function() {
-	initListeners();
-});
-
 function initListeners() {
 	$('.collapse-row').click(function() {
 		doUncollapse(this);
