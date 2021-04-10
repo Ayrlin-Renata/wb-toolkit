@@ -18,9 +18,11 @@ function initListeners() {
 function doUncollapse(ele) {
 	$(ele).find('.body-row').css("display","block");
 	$(ele).find('.collapse-header').css("display","none");
+	window.top.postMessage('uncollapseEvent', '*')
 }
 
 function doCollapse(ele) {
 	$(ele).find('.body-row').css("display","none");
 	$(ele).find('.collapse-header').css("display","block");
+	window.top.postMessage('collapseEvent', '*')
 }
